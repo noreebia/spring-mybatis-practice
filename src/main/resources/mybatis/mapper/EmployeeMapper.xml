@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.sooyoung.mybatispractice.mapper.EmployeeMapper">
+
+<!--    <select id="findAll" resultType="Employee">-->
+<!--        SELECT ID-->
+<!--              ,NAME-->
+<!--              ,COUNTRY-->
+<!--              ,POPULATION-->
+<!--          FROM CITY-->
+<!--         WHERE ID = #{id}-->
+<!--    </select>-->
+
+<!--    <select id="findAll" resultType="org.sooyoung.mybatispractice.entity.Employee">
+        SELECT * FROM EMPLOYEE
+    </select> -->
+    
+    <select id="findEveryEmployee" resultType="org.sooyoung.mybatispractice.entity.Employee">
+        SELECT * FROM EMPLOYEE
+    </select>
+
+</mapper>

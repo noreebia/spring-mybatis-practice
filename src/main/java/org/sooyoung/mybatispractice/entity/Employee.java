@@ -1,4 +1,4 @@
-package entity;
+package org.sooyoung.mybatispractice.entity;
 
 import lombok.Data;
 
